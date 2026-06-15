@@ -1,79 +1,55 @@
 body {
-  background: #111;
+  background: #0d0d0d;
   color: #fff;
 }
 
 .header {
+  min-height: 100vh;
   background:
-    linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.75)),
-    url("img/logo.png") center/250px no-repeat;
+    linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.85)),
+    url("img/logo.png") center/320px no-repeat;
 }
 
 .brand {
-  color: #c7c7c7;
+  color: #c9a96a;
   letter-spacing: 1px;
 }
 
 .btn,
 .buy-btn {
-  background: #888;
-  color: #fff;
-  border-radius: 8px;
-  font-weight: 600;
+  display: inline-block;
+  padding: 12px 22px;
+  background: #c9a96a;
+  color: #000;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  transition: .3s;
 }
 
 .btn:hover,
 .buy-btn:hover {
-  transform: none;
-  box-shadow: none;
+  transform: translateY(-2px);
+  box-shadow: 0 0 12px rgba(201,169,106,.3);
 }
 
 .btn-outline {
-  border: 1px solid #888;
-  color: #888;
-}
-
-.card,
-.goggle-card,
-.goggles-box,
-.contact {
-  background: #1a1a1a;
-  border: 1px solid #333;
-  border-radius: 10px;
-  box-shadow: none;
-}
-
-.card:hover {
-  transform: none;
-  border-color: #444;
-  box-shadow: none;
+  background: transparent;
+  color: #c9a96a;
+  border: 1px solid #c9a96a;
 }
 
 .section h2 {
-  font-size: clamp(28px, 4vw, 45px);
+  font-size: clamp(32px, 5vw, 55px);
 }
 
 h1 {
-  font-size: clamp(40px, 7vw, 75px);
+  font-size: clamp(48px, 8vw, 90px);
 }
 
-.price {
-  color: #bbb;
-  font-size: 22px;
-}
-
-.contact {
-  background: #1a1a1a;
-}
-
-.hero-text,
-.section-desc,
-.card-info p,
-.contact p {
-  color: #aaa;
-}
-
-.gallery img,
-.goggle-card img {
-  filter: brightness(0.9);
-}
+.card {
+  background: #141414;
+  border: 1px solid rgba(201,169,106,.18);
+  border-radius: 15
