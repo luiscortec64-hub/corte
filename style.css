@@ -162,9 +162,6 @@ h1 {
   overflow: hidden;
 }
 
-.card:hover {
-  border-color: rgba(215, 181, 109, .25);
-}
 
 .gallery {
   display: grid;
@@ -222,15 +219,11 @@ h1 {
   background: #111;
 }
 
-.goggle-card:hover {
-  border-color: rgba(215, 181, 109, .25);
-}
 
 .goggles-box {
-  background: #000;
+  background: transparent;
   border: none;
-  padding: 35px;
-  border-radius: 0;
+  padding: 0;
   text-align: center;
 }
 
